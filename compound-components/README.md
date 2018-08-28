@@ -1,4 +1,4 @@
-# Render props
+# Compound Components
 
 ### What are Compound Components?
 
