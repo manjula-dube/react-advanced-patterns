@@ -28,6 +28,6 @@ const Usage = () => (
 
 ### Example
 
-This is an example of grouping the RadioButton since they all have similar things to do
+This is an example of grouping the RadioButton highly inspired by [semantic-ui](https://react.semantic-ui.com/collections/form/)
 
 [Grouping the radio buttons](https://codesandbox.io/s/z32mw29474)
