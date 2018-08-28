@@ -6,8 +6,9 @@ Compound Component is a pattern in React where a component doesn't work by itsel
 
 ### What is so special about this pattern
 
-Compound Component allows Developer to take control over the rendering behavior, that gives the Developer, ability to decide in what order the component should render. 
-Compound Component also reduces the tension of Developer by not needing to passing tons of configuration as a prop.
+Compound Component allows us as a developer to have a full control over the rendering behavior, that gives the us, ability to decide in what order the component should render. 
+
+Compound Component also reduces the tension of passing tons & tons of configuration as a prop.
 Take a look at the documentation for semantic-ui-react, notably their Form component is all about Compound Component.
 
 ```
