@@ -2,7 +2,10 @@
 
 ### What are Compound Components?
 
-Compound Component is a pattern in React where a component doesn't work by itself and needs other specific components to be its children or parents in order to operate.But they still have the control to do lot of stuff on them :)
+Compound Component is a pattern in React where a component doesn't work by itself and needs other specific components to be its children or parents in order to operate. But they still have the control to do lot of stuff on them :)
+It is a pattern in which components are used together such that they share an implicit state that let’s them communicate with each other in the background.
+
+:Think of compound components like the <select> and <option> elements in HTML. Apart they don't do too much, but together they allow you to create the complete experience" — Kent C. Dodds
 
 ### What is so special about this pattern
 
