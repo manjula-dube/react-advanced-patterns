@@ -5,7 +5,7 @@
 
 * This is highly inspired from [Kent C. Dodds.](https://twitter.com/kentcdodds) So thanks to him for the lovely react patterns in life :)
 
-##### Contributors & Mainatiners:
+##### Contributors & Maintainers:
 
 * [Ryan Dsouza](https://twitter.com/ryands1701)
 * [Manjula Dube](https://twitter.com/manjula_dube)
