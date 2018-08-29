@@ -5,7 +5,7 @@
 
 * This is highly inspired from [Kent C. Dodds.](https://twitter.com/kentcdodds) So special thanks to him for the lovely react patterns in life :)
 
-If you want to propose a pattern you should have 2 valid points
+If you want to propose a pattern you should submit it with below points:
  * What is so special about this pattern?
  * Use case or inspired from
  * Example ([CodesandBox](https://codesandbox.io/) preferred)
