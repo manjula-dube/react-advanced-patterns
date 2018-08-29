@@ -1,4 +1,4 @@
-# React Advanced Patterns
+# <h1>React Advanced Patterns </h1>
 
 
 * You will find all the react patterns with its motivation and use case which are discovered from react lovers in the  community. If You would love to add your own discovered react pattern which you think will be useful for the community just send a PR. 
