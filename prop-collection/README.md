@@ -1,4 +1,4 @@
-# Prop Collection (WIP)
+# Props Collection (WIP)
 
 
 ### What are prop collection
