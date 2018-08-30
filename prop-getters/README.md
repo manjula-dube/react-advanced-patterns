@@ -43,6 +43,6 @@ Easy!!!
 
 ### Example
 
-This example shows how a Form component can manage state using prop-getters
+Below is an example shows how a Form component can manage state using prop-getters
 
 [Prop Getters in action](https://codesandbox.io/s/2pq87v9r4r)
