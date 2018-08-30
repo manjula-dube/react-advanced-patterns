@@ -8,7 +8,7 @@ Prop getters is a very unique pattern. This pattern involves the usage of spread
 
 Prop getters is a flexible pattern to provide props to the required component. This pattern is great when we want to add our own props without overriding the ones give by the main component.
 
-Suppose we have an input and we spread the props we obtained from the parent compnent like this:
+Suppose we have an input and we spread the props we obtained from the parent component like this:
 
 ```jsx
 <input {...inputProps} />
