@@ -12,7 +12,7 @@ Think of compound components like the ```<select>``` and ```<option>``` elements
 Compound Component allows us as a developer to have a full control over the rendering behavior, that gives us, ability to decide in what order the component should render. 
 
 Compound Component also reduces the tension of passing tons & tons of configuration as a prop.
-Take a look at the documentation for semantic-ui-react, notably their Form component is all about Compound Component.
+Take a look at the documentation for semantic-ui-react, their Form component is all about Compound Component.
 
 ```
 import { Form } from 'semantic-ui-react'
