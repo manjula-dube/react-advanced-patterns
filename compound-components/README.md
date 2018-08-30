@@ -30,7 +30,7 @@ const Usage = () => (
 ```
 
 
-### Example
+### Code Sandbox Example
 
 Below is an example of grouping the RadioButton highly inspired by [semantic-ui-react](https://react.semantic-ui.com/collections/form/)
 
