@@ -7,7 +7,7 @@
 
 If you want to propose a pattern you should submit it with below points:
  * What is so special about this pattern?
- * Use case or inspired from
+ * Use case or inspired from ?
  * Example ([CodesandBox](https://codesandbox.io/) preferred)
 
 ##### Contributors & Maintainers:
