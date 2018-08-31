@@ -3,7 +3,7 @@
 
 <p> This repo is maintained to have collection of react patterns & best practices used in the community. This repo provides you the collated list of all the patterns used in the community. If You have discovered one & would love to share your own react pattern simply send us a PR 🙌 </p>
 
-<p> This is highly inspired from [Kent C. Dodds.](https://twitter.com/kentcdodds) So special thanks to him for the lovely react patterns in life 😊 </p>
+This is highly inspired from [Kent C. Dodds.](https://twitter.com/kentcdodds) So special thanks to him for the lovely react patterns in life 😊 
 
 
 #### React Advanced Patterns
