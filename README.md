@@ -8,7 +8,7 @@
 
 #### React Advanced Patterns
 
-* [Compound Comonents](https://github.com/manjula91/react-advanced-patterns/tree/master/compound-components)
+* [Compound Components](https://github.com/manjula91/react-advanced-patterns/tree/master/compound-components)
 * [Flexible Compound Components](https://github.com/manjula91/react-advanced-patterns/tree/master/flexible-compound-components
 )
 * [Prop Collection](https://github.com/manjula91/react-advanced-patterns/tree/master/prop-collection)
