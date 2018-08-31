@@ -11,7 +11,7 @@ If you want to propose a pattern you should submit it with below points:
  * Use case or inspired from ?
  * Example ([CodesandBox](https://codesandbox.io/) preferred)
 
-##### Contributors & Maintainers:
+##### Contributors
 * [Garet McKinley](https://github.com/garetmckinley)
 * [anotherjsguy](https://github.com/kuldeepkeshwar)
 * [Ryan Dsouza](https://twitter.com/ryands1701)
