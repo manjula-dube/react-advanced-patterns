@@ -1,7 +1,7 @@
 # Prop Collections
 
 
-### What are prop collection
+### What are prop collection ?
 
 Prop Collection is a pattern where we can access props form the parent component by passing a single object of props.
 
