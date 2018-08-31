@@ -13,7 +13,7 @@ If you want to propose a pattern you should submit it with below points:
 
 ##### Contributors & Maintainers:
 * [Garet McKinley](https://github.com/garetmckinley)
-* [anotherjsguy] (https://github.com/kuldeepkeshwar)
+* [anotherjsguy](https://github.com/kuldeepkeshwar)
 * [Ryan Dsouza](https://twitter.com/ryands1701)
 * [Manjula Dube](https://twitter.com/manjula_dube)
 
