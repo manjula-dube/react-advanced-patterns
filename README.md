@@ -14,9 +14,11 @@
 * [State Reducers](https://github.com/manjula91/react-advanced-patterns/tree/master/state-reducers)
 * [Higher Order Components](https://github.com/manjula91/react-advanced-patterns/tree/master/hoc)
 
-##### This is not a pattern its more considered as a best practise 
+##### Best Practices when you React 
 
-* [Functional setState] (https://github.com/manjula91/react-advanced-patterns/tree/master/function-as-set-state)
+* [Functional setState](https://github.com/manjula91/react-advanced-patterns/tree/master/function-as-set-state)
+
+
 
 
 If you want to propose a pattern you should submit it with below points:
@@ -29,4 +31,6 @@ If you want to propose a pattern you should submit it with below points:
 * [anotherjsguy](https://github.com/kuldeepkeshwar)
 * [Ryan Dsouza](https://twitter.com/ryands1701)
 * [Manjula Dube](https://twitter.com/manjula_dube)
+
+
 
