@@ -1,4 +1,4 @@
-# Props Collection
+# Prop Collections
 
 
 ### What are prop collection
