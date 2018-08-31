@@ -5,6 +5,9 @@
 
 * This is highly inspired from [Kent C. Dodds.](https://twitter.com/kentcdodds) So special thanks to him for the lovely react patterns in life :)
 
+
+#### React Advanced Patterns
+
 * [Compound Comonents](https://github.com/manjula91/react-advanced-patterns/tree/master/compound-components)
 * [Flexible Compound Components](https://github.com/manjula91/react-advanced-patterns/tree/master/flexible-compound-components
 )
@@ -14,7 +17,7 @@
 * [State Reducers](https://github.com/manjula91/react-advanced-patterns/tree/master/state-reducers)
 * [Higher Order Components](https://github.com/manjula91/react-advanced-patterns/tree/master/hoc)
 
-##### Best Practices when you React 
+#### Best Practices when you React 
 
 * [Functional setState](https://github.com/manjula91/react-advanced-patterns/tree/master/function-as-set-state)
 
