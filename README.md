@@ -5,6 +5,19 @@
 
 * This is highly inspired from [Kent C. Dodds.](https://twitter.com/kentcdodds) So special thanks to him for the lovely react patterns in life :)
 
+* [Compound Comonents](https://github.com/manjula91/react-advanced-patterns/tree/master/compound-components)
+* [Flexible Compound Components](https://github.com/manjula91/react-advanced-patterns/tree/master/flexible-compound-components
+)
+* [Prop Collection](https://github.com/manjula91/react-advanced-patterns/tree/master/prop-collection)
+* [Prop Getters](https://github.com/manjula91/react-advanced-patterns/tree/master/prop-getters)
+* [Render Props](https://github.com/manjula91/react-advanced-patterns/tree/master/render-props)
+* [State Reducers](https://github.com/manjula91/react-advanced-patterns/tree/master/state-reducers)
+* [Higher Order Components](https://github.com/manjula91/react-advanced-patterns/tree/master/hoc)
+
+##### This is not a pattern its more considered as a best practise 
+
+* [Functional setState] (https://github.com/manjula91/react-advanced-patterns/tree/master/function-as-set-state)
+
 
 If you want to propose a pattern you should submit it with below points:
  * What is so special about this pattern?
