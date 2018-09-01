@@ -1,17 +1,8 @@
 
 # Function in `setState` 🙌 ❤️
 
-This not a pattern but can be termed a best practices when dealing with settings your state in React.
-Instead of passing in an object to this.setState we can pass in a function and get the value of the current state of our component. This is so cool. Note that setState() is a function, and we are passing another function to it to make to more functional
+This is not a pattern so much as a best practice when interacting with your state in React.
 
+Instead of passing an object to `setState()`, pass a function instead.  The function will be called with the current state of the component, even if the component itself has not been updated yet.  The React Reconciler may merge concurrent state updates into a single lifecycle, which can create subtle and hard to find bugs in your code.  In the case of a counter, a call like `this.setState({counter: this.state.counter++})` that happens on a user interaction may get fired 5 or 10 times before a React lifecycle occurs, which will lead to stale values in `this.state.counter`.  **Values in this.state are not updated until React renders your component** and passing a function to `setState()` (e.g. `this.setState(state => ({counter: state.counter+1}))` will ensure your state is update the the latest value instead of the latest *rendered* value.  
 
-```jsx
-this.setState(function(prevState, props){
-  return {on: !prevState.on}
-});
-```
-#### What is unique about this pattern or style ?
-
-So Much to do 😿 But trust me Now when React, encounters “multiple setState() calls”, instead of doing that “set-state” five times, React will avoid that huge amount of work & smartly say to itself: “No! I’m not going to do this five times, Its tiring to carry and update some slice of state on every single trip. No, I’d rather get a box, pack all these stuff together, and just do an update once.” And this is nothing but Batching!!!
-
-Here's an example for [Functional-setState](https://codesandbox.io/s/vm2q9n2l1y)
+Further reading in [React's issue tracker](https://github.com/facebook/react/issues/11527)
