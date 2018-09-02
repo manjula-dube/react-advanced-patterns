@@ -20,6 +20,8 @@ This is highly inspired from [Kent C. Dodds.](https://twitter.com/kentcdodds) So
 #### Best Practices when you React 
 
 * [Functional setState](https://github.com/manjula91/react-advanced-patterns/tree/master/react-best-practices/#function-in-setstate)
+* [Destructuring and spreading props](https://github.com/manjula91/react-advanced-patterns/tree/master/react-best-practices/#prop-spread)
+* [Runtime type checking with prop types](https://github.com/manjula91/react-advanced-patterns/tree/master/react-best-practices/#prop-types)
 
 
 

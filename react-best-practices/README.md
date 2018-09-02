@@ -5,3 +5,78 @@ This is not a pattern so much as a best practice when interacting with your stat
 Instead of passing an object to `setState()`, pass a function instead. The function will be called with the current state of the component, even if the component itself has not been updated yet. The React Reconciler may merge concurrent state updates into a single lifecycle, which can create subtle and hard to find bugs in your code. In the case of a counter, a call like `this.setState({counter: this.state.counter++})` that happens on a user interaction may get fired 5 or 10 times before a React lifecycle occurs, which will lead to stale values in `this.state.counter`. **Values in this.state are not updated until React renders your component** and passing a function to `setState()` (e.g. `this.setState(state => ({counter: state.counter+1}))` will ensure your state is updated with the latest value instead of the latest _rendered_ value.
 
 Further reading in [React's issue tracker](https://github.com/facebook/react/issues/11527)
+
+# <h1 id="prop-spread">Destructuring and spreading props</h1>
+
+The ESNext Javascript has some great features and this is one of them. While passing props to a child component, we can spread the entire props we need to pass instead of passing them individually.
+
+Instad of this
+
+```jsx
+const props = { a: 1, b: 2 }
+
+<MyComponent a={props.a} b={props.b} />
+```
+
+We can do this
+
+```jsx
+<MyComponent {...props} />
+```
+
+Much simpler and easier to read.
+
+This pattern is also helpful if you want to exclude a single prop while passing the rest of them.
+
+```jsx
+const props = { a: 1, b: 2, c: 3, d: 4 }
+const {a, ...rest} = props
+
+<MyComponent {...rest} />
+```
+
+Now this component in render can destructure the props in this manner.
+
+```jsx
+class MyComponent extends React.Component {
+  render() {
+    const { a, b } = this.props
+    return (
+      // JSX
+    )
+  }
+}
+```
+
+# <h1 id="prop-types">Using prop types for runtime type-checking of props</h1>
+
+Prop types are very important for checking the validity of props being passed to the component. Prop types help in determining whether the all the props have been passed correctly along with their data types at runtime. This helps identify issues in your component as well as you get prop information just by looking at the component file.
+
+Prop types can be accessed by installing a package `prop-types`.
+
+```jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+
+class MyCompnent extends React.Component {
+  render() {
+    const { prop1, prop2 } = this.props
+    return (
+      <div>
+        <p>Prop 1: {prop1}</p>
+        <p>Prop 2: {prop2}</p>
+      </div>
+    )
+  }
+}
+
+MyComponent.propTypes = {
+  prop1: PropTypes.string,
+  prop2: PropTypes.string.isRequired
+}
+```
+
+Here we have mentioned that our component receives two props, both of which are strings and `prop2` is required. If we do not pass `prop2`, we will receive an error in the browser console.
+
+For more details on prop types you can check out this link in the official React documentation
+[Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
