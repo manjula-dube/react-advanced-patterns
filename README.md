@@ -23,6 +23,7 @@ This is highly inspired from [Kent C. Dodds.](https://twitter.com/kentcdodds) So
 * [Destructuring and spreading props](https://github.com/manjula91/react-advanced-patterns/tree/master/react-best-practices/#prop-spread)
 * [Runtime type checking with prop types](https://github.com/manjula91/react-advanced-patterns/tree/master/react-best-practices/#prop-types)
 * [Using defaultProps](https://github.com/manjula91/react-advanced-patterns/tree/master/react-best-practices/#default-props)
+* [Using displayName](https://github.com/manjula91/react-advanced-patterns/tree/master/react-best-practices/#display-name)
 
 
 

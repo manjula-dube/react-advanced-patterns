@@ -103,4 +103,25 @@ MyComponent.defaultProps = {
 }
 ```
 
-Now the value of `color` prop will always be **red** whenever you don't pass it.
+Now the value of `color` prop will always be **red** whenever you don't pass it explicitly.
+
+# <h1 id="display-name">Using displayName</h1>
+
+Display name is something that we should use when we create components as these are helpful in debugging.
+
+The React DevTools shows the component name in the rendered component tree. This name is usually the name of the class in Class components
+For example
+
+```jsx
+class MyComponent extends React.Component { ... }
+```
+
+Here the component name `MyComponent` will be shown in the devTools. But for functional components defined like this, you should add a displayName for debugging purposes.
+
+```jsx
+const MyComponent = props => { ... }
+
+MyComponent.displayName = 'My Component'
+```
+
+This method is extremely useful when you are dealing with Higher Order Compnents as you can see the exact component name you added as displayName in the devTools and not the one that the wrapped HOC provides by default.
