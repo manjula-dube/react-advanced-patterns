@@ -125,3 +125,24 @@ MyComponent.displayName = 'My Component'
 ```
 
 This method is extremely useful when you are dealing with Higher Order Compnents as you can see the exact component name you added as displayName in the devTools and not the one that the wrapped HOC provides by default.
+
+# <h1 id="conditional-rendering">Conditional Rendering</h1>
+
+Also, when you only want to render an element on one condition, instead of doing this…
+
+```jsx 
+{
+  isTrue
+   ? <p>True!</p>
+   : <none/>
+}
+```
+… use short-circuit evaluation:
+
+```jsx
+{
+  isTrue && 
+    <p>True!</p>
+}
+
+```
