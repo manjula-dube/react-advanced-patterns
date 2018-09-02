@@ -16,6 +16,7 @@ This is highly inspired from [Kent C. Dodds.](https://twitter.com/kentcdodds) So
 * [Render Props](https://github.com/manjula91/react-advanced-patterns/tree/master/render-props)
 * [State Reducers](https://github.com/manjula91/react-advanced-patterns/tree/master/state-reducers)
 * [Higher Order Components](https://github.com/manjula91/react-advanced-patterns/tree/master/hoc)
+* [Provider Pattern](https://github.com/manjula91/react-advanced-patterns/tree/master/provider-pattern)
 
 #### Best Practices when you React 
 
