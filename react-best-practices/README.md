@@ -48,7 +48,7 @@ class MyComponent extends React.Component {
 }
 ```
 
-# <h1 id="prop-types">Using prop types for runtime type-checking of props</h1>
+# <h1 id="prop-types">Runtime type checking with prop types</h1>
 
 Prop types are very important for checking the validity of props being passed to the component. Prop types help in determining whether the all the props have been passed correctly along with their data types at runtime. This helps identify issues in your component as well as you get prop information just by looking at the component file.
 
@@ -80,3 +80,27 @@ Here we have mentioned that our component receives two props, both of which are 
 
 For more details on prop types you can check out this link in the official React documentation
 [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+
+# <h1 id="default-props">Using defaultProps</h1>
+
+Default Props is a very useful feature as we can define props that do not need to be passed explicitly or when the prop has more than one value (enum type) and a single value will always be present regardless.
+
+Default props just like prop-types can be set on any component like this
+
+```jsx
+const MyComponent = ({ color }) => (
+  <div>
+    <p>Color: {color}</p>
+  </div>
+)
+
+MyComponent.propTypes = {
+  color: PropTypes.oneOf(['red', 'green', 'blue'])
+}
+
+MyComponent.defaultProps = {
+  color: 'red'
+}
+```
+
+Now the value of `color` prop will always be **red** whenever you don't pass it.
