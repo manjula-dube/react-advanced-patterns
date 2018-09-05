@@ -10,7 +10,7 @@ Further reading in [React's issue tracker](https://github.com/facebook/react/iss
 
 The ESNext Javascript has some great features and this is one of them. While passing props to a child component, we can spread the entire props we need to pass instead of passing them individually.
 
-Instad of this
+Instead of this
 
 ```jsx
 const props = { a: 1, b: 2 }
