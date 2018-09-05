@@ -130,19 +130,44 @@ This method is extremely useful when you are dealing with Higher Order Compnents
 
 Also, when you only want to render an element on one condition, instead of doing this…
 
-```jsx 
+```jsx
 {
-  isTrue
-   ? <p>True!</p>
-   : <none/>
+  isTrue ? <p>True!</p> : <none />
 }
 ```
+
 … use short-circuit evaluation:
 
 ```jsx
 {
-  isTrue && 
-    <p>True!</p>
+  isTrue && <p>True!</p>
 }
+```
 
+A note to consider, while conditionally rendering based on the length of an array, compare the length conditionally and then render.
+
+For example, if you do this
+
+```jsx
+{
+  myArray.length && <p>True!</p>
+}
+```
+
+This will render **0**. As 0 is falsy, the condition will short-circuit and because of that 0 will be rendered.
+
+Instead, do this
+
+```jsx
+{
+  myArray.length > 0 && <p>True!</p>
+}
+```
+
+Or this
+
+```jsx
+{
+  Boolean(myArray.length) && <p>True!</p>
+}
 ```
