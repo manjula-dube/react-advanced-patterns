@@ -17,3 +17,7 @@ This pattern stands out when all you want is to extend you API for state changes
 This is an example of how a simple Form component can provide a different API altogether for creating a form.
 
 [Forms with State Reducers](https://codesandbox.io/s/9802yr86q4)
+
+Here is another example showing the use of multiple reducers for the state reduer pattern.
+
+[Multiple State Reducers](https://codesandbox.io/s/1o8o2xzm37)
