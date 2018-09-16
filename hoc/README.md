@@ -2,7 +2,7 @@
 
 ### What are Higher Order Components
 
-Higher order compnents are a pattern in which a function accepts a component and returns an enchanced version of the component by injecting the required props.
+Higher order components are a pattern in which a function accepts a component and returns an enhanced version of the component by injecting the required props.
 
 ### What is so special about this pattern
 
@@ -10,9 +10,9 @@ HOC's are a pattern used a lot. The most common being the `connect` method of `r
 
 The drawback to HOC's is prop-collision. A component wrapped with two or more higher order methods could have props of the same name and any one of those could be overriden. This is where render-props comes to the rescue.
 
-For prop-collision lets take the same example as the one in the example section. What instead of one set of data, I have to render two sets of data. Which means I need two fetch hoc's
+For prop-collision lets take the same example as the one in the example section. What if instead of one set of data, I have to render two sets of data, which means I need two fetch hoc's.
 
-The code will be something like this
+The code will be something like this -
 
 ```jsx
 let App = fetchHOC({ url: 'my-url-1' })(App)
