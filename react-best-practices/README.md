@@ -6,6 +6,24 @@ Instead of passing an object to `setState()`, pass a function instead. The funct
 
 Further reading in [React's issue tracker](https://github.com/facebook/react/issues/11527)
 
+# <h1 id="why-did-you-update"> Get rid of unnecessary updates in React</h1>
+
+If you want to get rid of unnecessary rerenders and updates in Recact. Try [why-did-you-update](https://github.com/maicki/why-did-you-update)
+
+Usage:
+
+```
+import React from 'react';
+
+if (process.env.NODE_ENV !== 'production') {
+  const {whyDidYouUpdate} = require('why-did-you-update');
+  whyDidYouUpdate(React);
+}
+```
+This library is available on npm, install it with: ```npm install --save why-did-you-update``` or ```yarn add why-did-you-update```.
+
+Why did you update is a function that monkey patches React and notifies you in the console when potentially unnecessary re-renders occur.
+
 # <h1 id="prop-spread">Destructuring and spreading props</h1>
 
 The ESNext Javascript has some great features and this is one of them. While passing props to a child component, we can spread the entire props we need to pass instead of passing them individually.
