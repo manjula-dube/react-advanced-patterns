@@ -24,6 +24,19 @@ This library is available on npm, install it with: ```npm install --save why-did
 
 Why did you update is a function that monkey patches React and notifies you in the console when potentially unnecessary re-renders occur.
 
+Here's the [example](https://codesandbox.io/s/jnrx7j30vy)
+
+In the example if you change your component.js to the below code. It will avoid unnecessary re-renders.That is, the component only needs to re-render when its props change. React has a special type of component built-in called PureComponent that is meant for exactly this use case.
+
+```
+class C extends React.PureComponent {
+  render() {
+    return <div>Age: {this.props.age}</div>
+  }
+}
+
+```
+
 # <h1 id="prop-spread">Destructuring and spreading props</h1>
 
 The ESNext Javascript has some great features and this is one of them. While passing props to a child component, we can spread the entire props we need to pass instead of passing them individually.
