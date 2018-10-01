@@ -28,6 +28,8 @@ Here's the [example](https://codesandbox.io/s/jnrx7j30vy)
 
 In the example if you change your component.js to the below code. It will avoid unnecessary re-renders.That is, the component only needs to re-render when its props change. React has a special type of component built-in called PureComponent that is meant for exactly this use case.
 
+Instead of inheriting from React.Component, use React.PureComponent like this:
+
 ```
 class C extends React.PureComponent {
   render() {
