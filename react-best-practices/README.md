@@ -8,7 +8,7 @@ Further reading in [React's issue tracker](https://github.com/facebook/react/iss
 
 # <h1 id="why-did-you-update"> Get rid of unnecessary updates in React</h1>
 
-If you want to get rid of unnecessary rerenders and updates in Recact. Try [why-did-you-update](https://github.com/maicki/why-did-you-update)
+If you want to get rid of unnecessary rerenders and updates in React. Try [why-did-you-update](https://github.com/maicki/why-did-you-update)
 
 Usage:
 
