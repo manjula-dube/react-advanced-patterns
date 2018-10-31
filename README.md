@@ -1,4 +1,5 @@
 # <h1 align="center">React Advanced Patterns </h1>
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 
 <p> This repo is maintained to have collection of react patterns & best practices used in the community. This repo provides you the collated list of all the patterns used in the community. If You have discovered one & would love to share your own react pattern simply send us a PR 🙌 </p>
@@ -42,3 +43,15 @@ If you want to propose a pattern you should submit it with below points:
 
 
 
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars3.githubusercontent.com/u/4931048?v=4" width="100px;"/><br /><sub><b>Vivek Nayyar</b></sub>](https://www.viveknayyar.in/)<br />[📖](https://github.com/Manjula Dube(dube.manjula668@gmail.com)/react-advanced-patterns/commits?author=vivek12345 "Documentation") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
