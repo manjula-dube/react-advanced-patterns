@@ -16,6 +16,7 @@ This is highly inspired from [Michael Jackson](https://github.com/mjackson) & [K
 - [State Reducers](https://github.com/manjula91/react-advanced-patterns/tree/master/state-reducers)
 - [Higher Order Components](https://github.com/manjula91/react-advanced-patterns/tree/master/hoc)
 - [Provider Pattern](https://github.com/manjula91/react-advanced-patterns/tree/master/provider-pattern)
+- [React Hooks](https://github.com/manjula91/react-advanced-patterns/tree/master/hooks)
 
 #### Best Practices when you React
 
