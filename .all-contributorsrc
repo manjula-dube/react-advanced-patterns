@@ -10,10 +10,10 @@
   "commit": true,
   "contributors": [
     {
-      "login": "vivek12345",
-      "name": "Vivek Nayyar",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/4931048?v=4",
-      "profile": "https://www.viveknayyar.in/",
+      "login": "manjula91",
+      "name": "Manjula Subhashchandra Dube",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7845921?v=4",
+      "profile": "https://www.linkedin.com/profile/view?id=181968473&trk=nav_responsive_tab_profile",
       "contributions": [
         "doc",
         "code",
@@ -21,10 +21,10 @@
       ]
     },
     {
-      "login": "manjula91",
-      "name": "Manjula Subhashchandra Dube",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/7845921?v=4",
-      "profile": "https://www.linkedin.com/profile/view?id=181968473&trk=nav_responsive_tab_profile",
+      "login": "vivek12345",
+      "name": "Vivek Nayyar",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4931048?v=4",
+      "profile": "https://www.viveknayyar.in/",
       "contributions": [
         "doc",
         "code",
@@ -37,7 +37,8 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/19697099?v=4",
       "profile": "https://github.com/ryands17",
       "contributions": [
-        "doc"
+        "doc",
+        "example"
       ]
     },
     {
