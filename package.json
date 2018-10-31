@@ -1,0 +1,16 @@
+{
+  "name": "react-advanced-patterns",
+  "version": "1.0.0",
+  "description": "Repo containing some advanced patterns for react and for writing better React applications",
+  "main": "index.js",
+  "repository": "https://github.com/manjula91/react-advanced-patterns.git",
+  "author": "Manjula Dube",
+  "license": "MIT",
+  "devDependencies": {
+    "all-contributors-cli": "^5.4.1"
+  },
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  }
+}
