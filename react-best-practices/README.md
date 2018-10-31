@@ -157,9 +157,7 @@ const MyComponent = props => { ... }
 MyComponent.displayName = 'My Component'
 ```
 
-This method is extremely useful when you are dealing with Higher Order Components as you can see the exact component name you added as displayName in the devTools and not the one that the wrapped HOC provides by default.
-
-When using with a Higher Order Component, you can wrap the originally provided name to demonstrate that something was wrapped.
+This method is extremely useful when you are dealing with Higher Order Components because they provide a name that doesn't reflect the component you are wrapping.  Instead, you can modify and use the originally provided name to demonstrate that something was wrapped.
 
 ```
 function connectToStore(storeName, Component) {
