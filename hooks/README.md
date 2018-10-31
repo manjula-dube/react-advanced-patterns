@@ -4,9 +4,7 @@
 
 Hooks are a new feature proposal that lets you use state and other React features without writing a class. They’re currently in React v16.7.0-alpha and being discussed in an open RFC.
 
-With hooks you can now have
-
-### What is so special about this pattern?
+### What is so special about hooks?
 
 With Hooks, you can extract stateful logic from a component so it can be tested independently and reused. Hooks allow you to reuse stateful logic without changing your component hierarchy. This makes it easy to share Hooks among many components or with the community.
 
