@@ -29,11 +29,11 @@ function Example() {
 }
 ```
 
-To read more about hooks, refer to this link
-https://reactjs.org/docs/hooks-intro.html
+To read more about hooks, refer to this [link](https://reactjs.org/docs/hooks-intro.html
+)
 
-Article written by Dan Abramov
-https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889
+Article [link](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889) written by Dan Abramov
+
 
 ### Example
 
