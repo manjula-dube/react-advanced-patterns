@@ -157,7 +157,28 @@ const MyComponent = props => { ... }
 MyComponent.displayName = 'My Component'
 ```
 
-This method is extremely useful when you are dealing with Higher Order Compnents as you can see the exact component name you added as displayName in the devTools and not the one that the wrapped HOC provides by default.
+This method is extremely useful when you are dealing with Higher Order Components as you can see the exact component name you added as displayName in the devTools and not the one that the wrapped HOC provides by default.
+
+When using with a Higher Order Component, you can wrap the originally provided name to demonstrate that something was wrapped.
+
+```
+function connectToStore(storeName, Component) {
+  const componentName = Component.displayName || Component.name || 'anonymous'; // can't be sure the component is following best practices!
+  const name = `connectedTo${storeName}(${componentName})`;
+  
+  const wrapped = () => {
+     return <Component />;
+  };
+
+  wrapped.displayName = name;
+  wrapped.name = name;  
+
+  return wrapped;
+}
+
+```
+
+With this example, calling `connectToStore('Authentication', UserDashboard)` will result in a component that appears in Dev Tools as `connectedToAuthentication(UserDashboard)`! 
 
 # <h1 id="conditional-rendering">Conditional Rendering</h1>
 
