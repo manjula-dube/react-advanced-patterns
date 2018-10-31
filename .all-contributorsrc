@@ -1,0 +1,115 @@
+{
+  "projectName": "react-advanced-patterns",
+  "projectOwner": "manjula91",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "manjula91",
+      "name": "Manjula Subhashchandra Dube",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7845921?v=4",
+      "profile": "https://www.linkedin.com/profile/view?id=181968473&trk=nav_responsive_tab_profile",
+      "contributions": [
+        "doc",
+        "code",
+        "example"
+      ]
+    },
+    {
+      "login": "vivek12345",
+      "name": "Vivek Nayyar",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4931048?v=4",
+      "profile": "https://www.viveknayyar.in/",
+      "contributions": [
+        "doc",
+        "code",
+        "example"
+      ]
+    },
+    {
+      "login": "ryands17",
+      "name": "Ryan Dsouza",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19697099?v=4",
+      "profile": "https://github.com/ryands17",
+      "contributions": [
+        "doc",
+        "example"
+      ]
+    },
+    {
+      "login": "meghna-saxena",
+      "name": "Meghna Srivastava",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/18181755?v=4",
+      "profile": "https://meghnasrivastava.herokuapp.com",
+      "contributions": [
+        "doc",
+        "example"
+      ]
+    },
+    {
+      "login": "EdwardDrapkin",
+      "name": "Edward Drapkin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6296006?v=4",
+      "profile": "https://github.com/EdwardDrapkin",
+      "contributions": [
+        "doc",
+        "example"
+      ]
+    },
+    {
+      "login": "felipediogo",
+      "name": "Felipe F. Diogo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26486135?v=4",
+      "profile": "https://github.com/felipediogo",
+      "contributions": [
+        "doc",
+        "example"
+      ]
+    },
+    {
+      "login": "alexrohleder",
+      "name": "Alex Rohleder",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7248028?v=4",
+      "profile": "https://www.alexrohleder.com",
+      "contributions": [
+        "doc",
+        "example"
+      ]
+    },
+    {
+      "login": "5achinJani",
+      "name": "Sachin Jani",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23077544?v=4",
+      "profile": "https://twitter.com/5achinJani",
+      "contributions": [
+        "doc",
+        "example"
+      ]
+    },
+    {
+      "login": "garetmckinley",
+      "name": "Garet McKinley",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1624279?v=4",
+      "profile": "https://garet.io",
+      "contributions": [
+        "doc",
+        "example"
+      ]
+    },
+    {
+      "login": "kuldeepkeshwar",
+      "name": "anotherjsguy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10448534?v=4",
+      "profile": "https://in.linkedin.com/in/kuldeepkeshwar",
+      "contributions": [
+        "doc",
+        "example"
+      ]
+    }
+  ]
+}
