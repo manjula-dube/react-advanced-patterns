@@ -10,7 +10,7 @@ HOC's are a pattern used a lot. The most common being the `connect` method of `r
 
 The drawback to HOC's is prop-collision. A component wrapped with two or more higher order methods could have props of the same name and any one of those could be overriden. This is where render-props comes to the rescue.
 
-For prop-collision lets take the same example as the one in the example section. What if instead of one set of data, I have to render two sets of data, which means I need two fetch hoc's.
+For prop-collision, lets take the same example as the one in the example section. What if instead of one set of data, I have to render two sets of data, which means I need two fetch hoc's.
 
 The code will be something like this -
 
