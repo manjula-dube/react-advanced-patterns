@@ -1,6 +1,6 @@
 # Prop Collections
 
-### What are prop collection ?
+### What are prop collection?
 
 Prop Collection is a pattern where we can access props from the parent component by passing a single object of props.
 
@@ -19,7 +19,7 @@ This ensures that the component receives all the props and we can also add our o
 <input name="age" {...getInputProps} />
 ```
 
-I would prefer using Prop Getters to be more flexible since Prop Collection passes object instead of function which is not very flexible. Also there is a disadvantage for prop collection pattern: as we would need to pass the value externally. There is no way we can send it via props. So for eg you would also have to pass the event handler explicity. Also if you want to add your own event handler along with the one provided by the parent, you need to extract the method from the parent and combine with your own handler which becomes rather messy.
+I would prefer using Prop Getters to be more flexible since Prop Collection passes object instead of function which is not very flexible. Also there is a disadvantage for prop collection pattern: as we would need to pass the value externally. There is no way we can send it via props. So for eg you would also have to pass the event handler explicitly. Also if you want to add your own event handler along with the one provided by the parent, you need to extract the method from the parent and combine with your own handler which becomes rather messy.
 
 ### Example
 
